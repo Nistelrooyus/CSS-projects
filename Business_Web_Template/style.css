@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("./images/graphs.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+#yellow {
+  color: orange;
+}
+
+nav {
+  margin: 1.5rem auto;
+}
+
+.navbar {
+  display: inline;
+}
+
+.navbar h2 {
+  display: inline;
+  padding: 0 2.5rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.navbar hr {
+  display: inline;
+  width: 1px;
+  height: 200px;
+  float: inline-start;
+  margin-left: 20px;
+  background-color: orangered;
+}
+
+.navbar ul {
+  display: inline;
+  margin: 0;
+  padding: 0rem 1rem 20rem 2rem;
+}
+
+.navbar ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 1.5rem;
+}
+
+.navbar ul li a {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn1 {
+  border: none;
+  border-radius: 15px;
+  width: 10%;
+  height: 2rem;
+  background-color: orangered;
+  opacity: 0.9;
+  color: #fff;
+}
+
+/* container */
+
+.container {
+  width: 70%;
+  text-align: left;
+  padding: 7rem 1rem 3rem 10rem;
+  color: #fff;
+}
+
+.container h1 {
+  margin: 0;
+  display: inline;
+  font-size: 3rem;
+  padding-bottom: 0;
+}
+
+.container h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.3rem;
+  word-spacing: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.container p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.btn2 {
+  border: 1.5px solid white;
+  border-radius: 15px;
+  width: 13%;
+  height: 2.1rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: white;
+}
+
+.righty {
+  float: right;
+  padding: 0rem 3.5rem 2rem 0rem;
+  color: #fff;
+}
+
+.price {
+  padding: 0 0 0 1rem;
+  color: coral;
+  font-size: 2.3rem;
+}
+
+.btn3 {
+  border: none;
+  float: right;
+  border-radius: 3px;
+  width: 50%;
+  height: 2.3rem;
+  background-color: orangered;
+  text-transform: capitalize;
+  color: white;
+}
